@@ -1,9 +1,13 @@
 h1 {
-    color: blue;
+    color: Blue;
     text-align: center;
 }
 
 p {
-    color: magenta;
+    color: Beige;
+    text-align: center;
+}
+ol {
+    color: DarkBlue;
     text-align: center;
 }
