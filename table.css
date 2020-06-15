@@ -1,9 +1,16 @@
 table {
   border: 2px solid black;
+  width: auto;
 }
 th, td, tr {
   border: 1px solid black;
+  padding: 5px;
+  width: 50%;
+  text-align: center;
 }
 td{
   background-color: lightblue;
+  padding: 5px;
+  width: auto;
+  text-align: center;
 }
