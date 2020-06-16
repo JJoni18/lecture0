@@ -1,6 +1,5 @@
 table {
   border: 2px solid black;
-  width: auto;
   border-collapse: collapse;
   width: 50%;
 }
@@ -10,6 +9,11 @@ th, td, tr {
   width: 50%;
   text-align: center;
   border-collapse: collapse;
+  }
+  th {
+    background-color: grey;
+    width: 50%
+    text-align: center;
   }
 td {
   background-color: lightblue;
