@@ -9,6 +9,7 @@ th, td, tr {
   padding: 5px;
   width: 50%;
   text-align: center;
+  padding: collapse
 }
 td {
   background-color: lightblue;
