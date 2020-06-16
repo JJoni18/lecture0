@@ -2,6 +2,7 @@ table {
   border: 2px solid black;
   width: auto;
   padding: collapse;
+  width: 50%;
 }
 th, td, tr {
   border: 1px solid black;
@@ -9,7 +10,7 @@ th, td, tr {
   width: 50%;
   text-align: center;
 }
-td{
+td {
   background-color: lightblue;
   padding: 5px;
   width: auto;
