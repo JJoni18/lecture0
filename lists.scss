@@ -1,7 +1,11 @@
-ol {
-  color: red;
+$color: red;
+
+ol{
+  font-size: 14px;
+  color: $color;
 }
 
-ul{
-
+li{
+  font-size: 18px;
+  color: $color
 }
