@@ -2,16 +2,29 @@
 <html>
     <head>
 	    <title>John</title>
+      <link rel="stylesheet" href="https://getbootstrap.com/docs/4.3/layout/grid/">
+      <style>
+        .row > div {
+            padding: 20px;
+            background-color: teal;
+            border: 2px solid black;
+        }
+        </style>
         </head>
     <body>
       <a href="hello.html">home</a>
       <h1>Welcome to Programming!</h1>
       <ol>
+        <div class="row">
+          <div class="col-lg-3 col-sm-6">
         <li>HTML/CSS</li>
-
+      </div >
+      <div class="col-lg-3 col-sm-6">
         <li>Python</li>
-
+      </div>
+      <div class="col-lg-3 col-sm-6">
         <li>Javascript</li>
+        </div>
         </ol>
     </body>
 </html>
