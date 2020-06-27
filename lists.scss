@@ -1,10 +1,11 @@
 $color: Blue;
+$links: darkblue;
 li{
   font-size: 14px;
   color: $color;
 }
 
-a{
-  font-size: 18px;
-  color: $color
+#links{
+  text-align: right;
+  color: $links;
 }
