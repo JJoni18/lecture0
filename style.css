@@ -22,3 +22,17 @@ tr {
     color: DarkBlue;
     text-align: center;
   }
+
+  @media (min-width: 200px){
+
+  }
+
+  <div>
+  <li><a href="chelsea.html">chelsea fan page</a></li>
+  <li><a href="john.html">john</a></li>
+  <li><a href="programming.html">Programming</a></li>
+  <li><a href="just.html">just list's</a></li>
+  <li><a href="div_span.html"> div_span examples</a></li>
+  <li><a href="links.html">links examples</a></li>
+  <li><a href="forms.html">forms</a></li>
+</div>
