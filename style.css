@@ -16,3 +16,6 @@ tr {
     color: DarkBlue;
     text-align: center;
 }
+img:hover {
+  background-color: #0000ff;
+}
