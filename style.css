@@ -21,3 +21,7 @@ tr {
     color: DarkBlue;
     text-align: center;
   }
+
+  img.center {
+  align: center;
+  }
