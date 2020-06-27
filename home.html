@@ -3,7 +3,19 @@
     <head>
 	    <title>My Web Page!</title>
       <style>
-      
+        @media print{
+          .screen-only{
+            display: none;
+          }
+        }
+      a::before{
+        content: "\21d2";
+        font-weight: bold;
+      }
+      h1{
+        font-weight: bold;
+      }
+
       </style>
     </head>
     <body align="center">
@@ -14,13 +26,14 @@
     </div>
       <div>
       <a href="chelseafc.com">https://www.chelseafc.com</a>
-      <a href="chelsea.html">chelsea page </a>
+      <a href="chelsea.html">chelsea fan page</a>
       <a href="john.html">john</a>
       <a href="programming.html">Programming</a>
       <a href="just.html">just list's</a>
       <a href="div_span.html"> div_span examples</a>
       <a href="links.html">links examples</a>
-      ><a href="forms.html">forms</a>
+      <a href="forms.html">forms</a>
     </div>
+    <p class="screen-only">This is the foot of the page</p>
     </body>
 </html>
