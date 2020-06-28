@@ -17,6 +17,7 @@ h2, input, div{
 p {
     color: Black;
     text-align: center;
+    font-size: 20px;
 }
 tr {
     color: DarkBlue;
