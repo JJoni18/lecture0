@@ -9,3 +9,13 @@ li{
   text-align: left;
   color: $links;
 }
+
+$bgcolor: lightblue;
+$textcolor: darkblue;
+$fontsize: 18px;
+
+#p-div {
+  background-color: $bgcolor;
+  color: $textcolor;
+  font-size: $fontsize;
+}
