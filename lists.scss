@@ -1,5 +1,8 @@
 $color: Blue;
 $links: darkblue;
+$bgcolor: black;
+$textcolor: white;
+$fontsize: 18px;
 li{
   font-size: 14px;
   color: $color;
@@ -10,12 +13,13 @@ li{
   color: $links;
 }
 
-$bgcolor: black;
-$textcolor: white;
-$fontsize: 18px;
-
 body{
   background-color: $bgcolor;
+  color: $textcolor;
+  font-size: $fontsize;
+}
+
+ol > li{
   color: $textcolor;
   font-size: $fontsize;
 }
