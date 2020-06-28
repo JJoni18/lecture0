@@ -31,12 +31,15 @@ tr {
   }
     #top{
       font-size: 36px;
+      color: white;
     }
     #middle{
       font-size: 24px;
+      color: white;
     }
     #bottom {
       font-size: 12px;
+      color: white;
     }
     .name {
       font-weight: bold;
