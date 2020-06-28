@@ -13,13 +13,14 @@ li{
   color: $links;
 }
 
-body{
+#body{
   background-color: $bgcolor;
   color: $textcolor;
   font-size: $fontsize;
 }
 
-ol > li{
+#lists{
+  text-align: center;
   color: $textcolor;
   font-size: $fontsize;
 }
